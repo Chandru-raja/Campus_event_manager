@@ -52,14 +52,14 @@ def handle_search_events():
     keyword = input("  Enter keyword: ").strip()
     results = ev.search_events(keyword)
     if not results:
-        print("  No matching events.")
+        print("  No matching events.")#no events 
         return
     for event in results:
         print_event(event)
 
 
 def handle_register():
-    print_header("Register for Event") events registered
+    print_header("Register for Event")
     student = input("  Your name: ").strip()
     event_id = prompt_int("  Event ID: ")
     if not student or event_id is None:
