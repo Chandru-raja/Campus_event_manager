@@ -84,6 +84,7 @@ def handle_cancel():
         print(f"  Registration cancelled.")
     else:
         print("  No matching registration found.")
+        Printf(" Yes matching")
 
 
 def handle_list_registrations():
