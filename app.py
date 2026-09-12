@@ -83,8 +83,8 @@ def handle_cancel():
     if success:
         print(f"  Registration cancelled.")
     else:
-        print("  No matching registration found.")
-        Printf(" Yes matching")
+        print("  No matching registration found.")#no registrstion
+        
 
 
 def handle_list_registrations():
