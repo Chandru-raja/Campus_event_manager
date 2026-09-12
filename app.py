@@ -59,7 +59,7 @@ def handle_search_events():
 
 
 def handle_register():
-    print_header("Register for Event")
+    print_header("Register for Event") events registered
     student = input("  Your name: ").strip()
     event_id = prompt_int("  Event ID: ")
     if not student or event_id is None:
