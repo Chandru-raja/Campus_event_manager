@@ -88,7 +88,7 @@ def handle_cancel():
 
 
 def handle_list_registrations():
-    print_header("All Registrations")
+    print_header("All Registrations") #registered successfully
     all_regs = reg.list_registrations()
     if not all_regs:
         print("  No registrations yet.")
