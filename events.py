@@ -7,7 +7,7 @@ events = [
     {"id": 1, "name": "Python Workshop",     "capacity": 30},
     {"id": 2, "name": "Git & GitHub Bootcamp","capacity": 25},
     {"id": 3, "name": "Career Fair",          "capacity": 100},
-    {"id": 4, "name": "Hackathon 2026",       "capacity": 50},
+    {"id": 4, "name": "Hackathon 2026-2027",       "capacity": 50},
 ]
 
 _next_id = 5   # simple auto-increment; no database needed
