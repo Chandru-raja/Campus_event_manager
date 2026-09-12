@@ -9,6 +9,7 @@
 # Developer B might add:  if not get_event(event_id): ...
 # Developer C might add:  capacity check
 # Developer D might add:  duplicate registration check
+# demooooooovdoishuwdhiqeuyiewqqfewgh
 
 from events import get_event
 
