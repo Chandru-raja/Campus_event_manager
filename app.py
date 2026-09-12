@@ -81,7 +81,7 @@ def handle_cancel():
         return
     success = reg.cancel_registration(student, event_id)
     if success:
-        print(f"  Registration cancelled.")
+        print(f"  Registration has been cancelled.")
     else:
         print("  No matching registration found.")
 
